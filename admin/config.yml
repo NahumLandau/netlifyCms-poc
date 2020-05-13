@@ -22,12 +22,12 @@ collections:
         valueField: "title"
         displayFields: ["title"]
       - label: "tags"
-          name: "tags"
-          widget: "relation"
-          collection: "tags"
-          searchFields: ["title"]
-          valueField: "title"
-          displayFields: ["title"]
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        searchFields: ["title"]
+        valueField: "title"
+        displayFields: ["title"]
 
   - name: "groups"
     label: "Groups"
