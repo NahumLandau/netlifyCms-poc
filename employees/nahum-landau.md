@@ -9,4 +9,7 @@ description: |-
 
   [tikal web site](https://tikalk.com)
 group: Frontend
+tags:
+  - Developer
+  - Tikalist
 ---
