@@ -14,3 +14,18 @@ collections:
       - {label: "Birth Date", name: "date", widget: "datetime"}
       - {label: "Image", name: "thumbnail", widget: "image"}
       - {label: "Description", name: "description", widget: "markdown"}
+      - label: "Group"
+        name: "group"
+        widget: "relation"
+        collection: "groups"
+        searchFields: ["title"]
+        valueField: "title"
+        displayFields: ["title"]
+
+  - name: "groups"
+    label: "Groups"
+    folder: "groups"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Group", name: "title", widget: "string"}
