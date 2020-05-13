@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "images/uploads"
+collections:
+  - name: "employees"
+    label: "Employees"
+    folder: "employees"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Birth Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "thumbnail", widget: "image"}
+      - {label: "Description", name: "description", widget: "markdown"}
