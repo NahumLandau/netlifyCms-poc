@@ -38,8 +38,8 @@ collections:
     fields:
       - {label: "Group", name: "title", widget: "string"}
 
-  - name: "Tags"
-    label: "tags"
+  - name: "tags"
+    label: "Tags"
     folder: "tags"
     create: true
     slug: "{{slug}}"
