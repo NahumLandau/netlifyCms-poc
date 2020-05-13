@@ -21,6 +21,13 @@ collections:
         searchFields: ["title"]
         valueField: "title"
         displayFields: ["title"]
+      - label: "tags"
+          name: "tags"
+          widget: "relation"
+          collection: "tags"
+          searchFields: ["title"]
+          valueField: "title"
+          displayFields: ["title"]
 
   - name: "groups"
     label: "Groups"
@@ -29,3 +36,11 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Group", name: "title", widget: "string"}
+
+  - name: "Tags"
+    label: "tags"
+    folder: "tags"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Tag", name: "title", widget: "string"}
