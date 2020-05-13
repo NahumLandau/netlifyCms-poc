@@ -1,5 +1,5 @@
 ---
-name: Nahum Landau 2
+name: Nahum Landau
 date: 2020-05-13T18:44:26.125Z
 thumbnail: /images/uploads/תמונת-פרופיל-נחום.jpg
 description: |-
