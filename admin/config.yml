@@ -25,6 +25,7 @@ collections:
         name: "tags"
         widget: "relation"
         collection: "tags"
+        multiple: true
         searchFields: ["title"]
         valueField: "title"
         displayFields: ["title"]
